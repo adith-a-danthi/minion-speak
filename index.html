@@ -4,10 +4,31 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./main.css" />
+		<link rel="stylesheet" href="./test.css" />
 		<title>Minion Speak</title>
 	</head>
 	<body>
-		<h1>Hello!</h1>
+		<div class="content">
+			<div class="intro">
+				
+				<h1 class="heading">Bello!</h1>
+				<h1 class="sub-heading">Welcome to Minion Speak</h1>
+				<p class="about">
+					Are you a fan of the minions? Did you know that the gibberish they say
+					is an actual language. Use the translator to convert your text from
+					English to Minionese or Banana language.
+				</p>
+			</div>
+			<div class="translate">
+				<textarea
+					id="textarea"
+					placeholder="Enter your text in English"
+					rows="4"
+				></textarea>
+				<button class="translate-button">Translate to Banana!</button>
+				<p class="translated-heading">Translated text will come here &darr;</p>
+				<div class="translated-text"></div>
+			</div>
+		</div>
 	</body>
 </html>
