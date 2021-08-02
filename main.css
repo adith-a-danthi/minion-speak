@@ -104,7 +104,7 @@ button:hover {
 	color: var(--light-color);
 }
 
-.translate-button {
+#translate-button {
 	width: 200px;
 }
 
